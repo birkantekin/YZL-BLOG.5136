@@ -1,6 +1,6 @@
 # YZL-BLOG.5136
 .NetCore MVC 5.0 N Katmanlı Yay. CoreBlog projesi, admin ve yazarların olduğu blogda saklanabilen bir projedir.
-![image](https://github.com/birkantekin/YZL-BLOG.5136/assets/135671209/7393bc13-6137-43af-821c-64191af74c0d)
+![image]([https://github.com/birkantekin/YZL-BLOG.5136/assets/135671209/7393bc13-6137-43af-821c-64191af74c0d](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif))
 # Proje Aşamaları
 •Entity Framework Repository'yi içermektedir.
 •Partial View ve Await Async Albümü
