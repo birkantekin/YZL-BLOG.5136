@@ -1,6 +1,8 @@
 # YZL-BLOG.5136
 .NetCore MVC 5.0 N Katmanlı Yay. CoreBlog projesi, admin ve yazarların olduğu blogda saklanabilen bir projedir.
 ![image](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+#Proje Hakkında
+ASP.Net Core 5.0 ile Entity Framework Core, N Tier Architechture mimarisini API'lerle destekleyerek Codefirst yaklaşımı ile veritabanı olarak SQL Server kullanılarak kodlanmıştır. Proje Kullanıcısı, Yazar ve Yönetici Panelli bir Blog sitesidir.
 # Proje Aşamaları
 •Entity Framework Repository'yi içermektedir.
 <br>
