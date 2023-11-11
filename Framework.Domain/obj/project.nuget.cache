@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qhahefO/zeZDfKk8RPJs8nXKqI0bLMuCNHus2XuMDOhIewrVibufwK69FBfWOEMijsT57f4h5HZlnyak3E3zlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\Framework.Domain\\Framework.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elif\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\elif\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
