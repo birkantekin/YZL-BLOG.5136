@@ -3,6 +3,7 @@
 ![image](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 # Proje Aşamaları
 •Entity Framework Repository'yi içermektedir.
+<br>
 •Partial View ve Await Async Albümü
 •Bileşen ile parametre kullanımı yürüyüş görüntüleme.
 •HttpGet ve HttpPost özellikleri kayıtlıdır.
