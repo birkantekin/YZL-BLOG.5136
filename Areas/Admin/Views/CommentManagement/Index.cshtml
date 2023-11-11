@@ -1,0 +1,74 @@
+﻿@using Framework.Domain.Entities;
+@model List<Comment>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+
+<div class="tm-blog-img-container">
+</div>
+
+<section class="tm-section">
+    <div class="container">
+        <div class="row">
+            <div class="tm-blog-post">
+                <h3 class="tm-gold-text">Yorumlar</h3>
+                <br />
+                <br />
+                <hr />
+                <table class="table " id="datatable2">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Makale</th>
+                            <th>Yorum Yapan</th>
+                            <th>Yorum</th>
+                            <th>Kullanıcıyı Pasife al</th>
+                            <th>Makaleyi Pasife al</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">@item.Id</th>
+                                <td>@item.Article.Title</td>
+                                <td>@item.User.FullName</td>
+                                <td>@item.Text</td>
+                                @if (item.User.IsActive==Framework.Domain.Enums.EnumType.Active)
+                                {
+                                    <td><a class="btn btn-warning" href="@Url.Action("Passived","User",new{area="Admin",Id=item.UserId})">Kullanıcıyı Pasife Al</a></td>
+                                }
+                                else
+                                {
+                                    <td>Pasife alınmış</td>
+                                }
+                                @if (item.Article.Status==Framework.Domain.Enums.EnumType.Active)
+                                {
+                                    <td><a class="btn btn-warning" href="@Url.Action("Passived","Article",new{area="Admin",Id=item.ArticleId})">Makaleyi Pasife Al</a></td>
+                                }
+                                else
+                                {
+                                    <td>Pasife alınmış</td>
+                                }
+                            </tr>
+                        }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#datatable2').DataTable();
+        });
+    </script>
+}
+

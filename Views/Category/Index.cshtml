@@ -1,0 +1,153 @@
+﻿@using Framework.Application.Common.Interfaces;
+@using Framework.Domain.Entities;
+@using Framework.Domain.Enums;
+@inject ICurrentUser CurrentUser
+@{
+    ViewData["Title"] = "Makaleler";
+
+    var categories = (List<Category>)ViewBag.Categories;
+
+    var categoryId = (long?)ViewBag.CategoryId;
+
+    Category activeCategory;
+    if (categoryId.HasValue)
+    {
+        activeCategory = categories.FirstOrDefault(x => x.Id == categoryId.Value);
+    }
+    else
+    {
+        activeCategory = categories.FirstOrDefault();
+    }
+
+    List<Article> articles = new List<Article>();
+
+    if (User.Identity.IsAuthenticated)
+    {
+        articles = activeCategory.Articles.OrderByDescending(x => x.CreatedDate).ToList();
+    }
+    else
+    {
+        articles = activeCategory.Articles.OrderByDescending(x => x.CreatedDate).Take(5).ToList();
+    }
+
+
+}
+
+<div class="tm-blog-img-container">
+</div>
+
+<section class="tm-section">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+                <div class="tm-blog-post">
+                    <h3 class="tm-gold-text">@activeCategory.Name</h3>
+                </div>
+
+                <div class="row tm-margin-t-big">
+                    <input type="text" id="searchInput" placeholder="Makale filtrele">
+                    <p>&nbsp;</p>
+
+
+                    @foreach (var item in articles.Where(x=>x.Status==EnumType.Active).ToList())
+                    {
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-4" style="margin-bottom:18px;" data-articleName="@item.Title">
+
+                            <div class="tm-content-box">
+                                <img src="@item.Photo" alt="Image" class="tm-margin-b-30 img-fluid">
+                                <h4 class="tm-margin-b-20 tm-gold-text"><a asp-action="Index" asp-controller="Article" asp-route-id="@item.Id">@item.Title</a></h4>
+                                <a asp-action="Index" asp-controller="Authority" asp-route-id="@item.UserId" class="tm-btn text-uppercase">Yazar : @item.User.FullName</a>
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+
+            </div>
+            <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 tm-aside-r">
+                <div class="tm-aside-container">
+                    <h3 class="tm-gold-text tm-title">
+                        Kategoriler
+                    </h3>
+                    <input type="text" id="categorySearch" placeholder="Filtrele">
+                    <nav>
+                        <ul class="nav" id="categoryList">
+                            @foreach (var item in categories)
+                            {
+                                <li>
+                                    <a asp-action="Index" asp-controller="Category" asp-route-categoryId="@item.Id" class="tm-text-link" data-name="@item.Name">@item.Name</a>
+
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        var isFollow = item.CategoryWithUsers.Any(x => x.UserId == CurrentUser.UserId.Value);
+
+                                        if (isFollow)
+                                        {
+                                            <span>
+                                            &nbsp; &nbsp;
+                                            <a asp-action="Follow" asp-controller="Category" asp-route-id="@item.Id" class="tm-text-link  btn-primary " style="color:white" data-name="@item.Name">Takip Ediliyor</a>
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span>
+                                                &nbsp; &nbsp;
+                                                <a asp-action="Follow" asp-controller="Category" asp-route-id="@item.Id" class="tm-text-link  btn-primary " style="color:white" data-name="@item.Name">Takip Et</a>
+                                            </span>
+                                        }
+                                    }
+
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            var categoryList = $("#categoryList");
+
+            $("#categorySearch").on("input", function () {
+                var query = $(this).val().toLowerCase();
+                categoryList.find("a").each(function () {
+                    var categoryName = $(this).data("name").toLowerCase();
+                    if (categoryName.includes(query)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+
+
+    </script>
+
+    <!-- HTML öğelerini filtrelemek için JavaScript kodu -->
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var searchValue = this.value.toLowerCase(); // Kullanıcının girdiği metni küçük harfe çevir
+            var articles = document.querySelectorAll('[data-articleName]'); // data-articleName özelliğine sahip tüm öğeleri seç
+
+            articles.forEach(function (article) {
+                var articleName = article.getAttribute('data-articleName').toLowerCase(); // Her öğenin data-articleName değerini al ve küçük harfe çevir
+
+                // Arama metni, öğenin data-articleName içerisinde bulunuyorsa göster, aksi halde gizle
+                if (articleName.includes(searchValue)) {
+                    article.style.display = 'block'; // Göster
+                } else {
+                    article.style.display = 'none'; // Gizle
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,181 @@
+﻿@using Framework.Application.Common.Interfaces;
+@using Framework.Domain.Entities;
+@inject ICurrentUser CurrentUser
+@model Article
+@{
+    ViewData["Title"] = Model.Title;
+
+    var categories = (List<Category>)ViewBag.Categories;
+
+}
+
+<div class="tm-blog-img-container">
+</div>
+
+<section class="tm-section">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+                <div class="tm-blog-post">
+                    <h3 class="tm-gold-text">@Model.Title
+                        @if (User.Identity.IsAuthenticated)
+                        {
+
+                            var isLike = Model.ArticleLikes.Any(x => x.UserId == CurrentUser.UserId.Value);
+
+                            if (isLike)
+                            {
+                                <span>
+                                    &nbsp; &nbsp;
+                                    <a asp-action="Like" asp-controller="Article" asp-route-id="@Model.Id" asp-route-url="@Context.Request.Path" class="  btn btn-warning ">Beğendin</a>
+                                </span>
+                            }
+                            else
+                            {
+                                <span>
+                                    &nbsp; &nbsp;
+                                    <a asp-action="Like" asp-controller="Article" asp-route-id="@Model.Id" asp-route-url="@Context.Request.Path" class="  btn btn-primary ">Beğen</a>
+                                </span>
+                            }
+
+                        }
+                    </h3>
+
+
+                   
+                </div>
+
+                <div class="row tm-margin-t-big">
+                    <span>Oluşturulma: @Model.CreatedDate</span>
+                    <br />
+                    <span>Yazar: @Model.User.FullName</span>
+                    <br />
+                    <span>Okunma : @Model.Counter</span>
+                    <br />
+                    <br />
+                    @Html.Raw(Model.Content)
+                    <br />
+                    <br />
+
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <a style="color:red" asp-action="Login" asp-controller="Account">Yorumları görmek ve yazmak için giriş yapın!</a>
+                    }
+                    else
+                    {
+                        <!-- Yorumlar için bir bölüm oluşturun -->
+                        <div class="comments">
+                            @if (Model.Comments.Any())
+                            {
+                                <h2>Yorumlar</h2>
+
+                            }
+                            <!-- Tek bir yorumun temel yapısı -->
+                            <div class="comment">
+                                @foreach (var item in Model.Comments.OrderByDescending(x => x.Id).ToList())
+                                {
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <!-- Kullanıcı avatarı veya profil fotoğrafı -->
+                                            <img src="@item.User.ProfilePhoto" alt="Kullanıcı Avatarı" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <!-- Kullanıcı adı ve yorum metni -->
+                                            <h3>@item.User.UserName</h3>
+                                            <p>@item.Text</p>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <br />
+                                }
+
+                            </div>
+
+                            <!-- Başka yorumlar eklemek için yukarıdaki yapının kopyalarını kullanabilirsiniz -->
+
+                        </div>
+
+                        
+                        <!-- Yorum eklemek için bir form -->
+                        <h2>Yorum Ekleyin</h2>
+                        <form asp-action="Comment" asp-controller="Article" asp-route-id="@Model.Id">
+                            <div class="form-group">
+                                <label for="yorumMetni">Yorumunuz:</label>
+                                <textarea id="yorumMetni" class="form-control" name="Text"></textarea>
+                                <input type="hidden" name="Url" value="@Context.Request.Path" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Yorum Ekle</button>
+                        </form>
+                    }
+                </div>
+
+            </div>
+
+            <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 tm-aside-r">
+                <div class="tm-aside-container">
+                    <h3 class="tm-gold-text tm-title">
+                        Kategoriler
+                    </h3>
+                    <input type="text" id="categorySearch" placeholder="Filtrele">
+                    <nav>
+                        <ul class="nav" id="categoryList">
+                            @foreach (var item in categories)
+                            {
+                                <li>
+                                    <a asp-action="Index" asp-controller="Category" asp-route-categoryId="@item.Id" class="tm-text-link" data-name="@item.Name">@item.Name</a>
+
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        var isFollow = item.CategoryWithUsers.Any(x => x.UserId == CurrentUser.UserId.Value);
+
+                                        if (isFollow)
+                                        {
+                                            <span>
+                                                &nbsp; &nbsp;
+                                                <a asp-action="Follow" asp-controller="Category" asp-route-id="@item.Id" asp-route-url="@Context.Request.Path" class="tm-text-link  btn-primary " style="color:white" >Takip Ediliyor</a>
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span>
+                                                &nbsp; &nbsp;
+                                                <a asp-action="Follow" asp-controller="Category" asp-route-id="@item.Id" asp-route-url="@Context.Request.Path" class="tm-text-link  btn-primary " style="color:white" >Takip Et</a>
+                                            </span>
+                                        }
+                                    }
+
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            var categoryList = $("#categoryList");
+
+            $("#categorySearch").on("input", function () {
+                var query = $(this).val().toLowerCase();
+                categoryList.find("a").each(function () {
+                    var categoryName = $(this).data("name").toLowerCase();
+                    if (categoryName.includes(query)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                    
+                });
+            });
+        });
+
+
+    </script>
+}

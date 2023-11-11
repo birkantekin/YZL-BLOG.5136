@@ -1,0 +1,93 @@
+﻿@using Framework.Domain.Entities;
+@model List<User>
+@{
+    ViewData["Title"] = "Anasayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var categories = (List<Category>)ViewBag.Categories;
+}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+
+
+<div class="tm-blog-img-container">
+</div>
+
+<section class="tm-section">
+    <div class="container">
+        <div class="row">
+            <div class="tm-blog-post">
+                <h3 class="tm-gold-text">Gelen Kullanıcı Talepleri</h3>
+                <hr />
+                <table class="table " id="datatable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Ad Soyad</th>
+                            <th>E-posta</th>
+                            <th>Kullanıcı Adı</th>
+                            <th>Onay</th>
+                            <th>Red</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">@item.Id</th>
+                                <td>@item.FullName</td>
+                                <td>@item.Email</td>
+                                <td>@item.UserName</td>
+                                <td><a class="btn btn-warning" href="@Url.Action("Approved","User",new{area="Admin",Id=item.Id})">Onayla</a></td>
+                                <td><a class="btn btn-danger" href="@Url.Action("Reject","User",new{area="Admin",Id=item.Id})">Reddet</a></td>
+                            </tr>
+                        }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <div class="row">
+            <div class="tm-blog-post">
+                <h3 class="tm-gold-text">Gelen Kategori Ekleme Talepleri</h3>
+                <hr />
+                <table class="table " id="datatable2">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Kategori Adı</th>
+                            <th>Onay</th>
+                            <th>Red</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in categories)
+                        {
+                            <tr>
+                                <th scope="row">@item.Id</th>
+                                <td>@item.Name</td>
+                                <td><a class="btn btn-warning" href="@Url.Action("Approved","Category",new{area="Admin",Id=item.Id})">Onayla</a></td>
+                                <td><a class="btn btn-danger" href="@Url.Action("Reject","Category",new{area="Admin",Id=item.Id})">Reddet</a></td>
+                            </tr>
+                        }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#datatable').DataTable();
+            $('#datatable2').DataTable();
+        });
+    </script>
+}

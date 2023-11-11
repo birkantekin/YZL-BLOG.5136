@@ -1,0 +1,166 @@
+﻿@using Framework.Application.Common.Interfaces;
+@inject ICurrentUser CurrentUser
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewData["Title"] - YZL5136 Projesi</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/templatemo-style.css">
+    <style>
+        .nav {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tm-header">
+        <div class="container-fluid">
+            <div class="tm-header-inner">
+                @if (User.Identity.IsAuthenticated && CurrentUser.User.Role.Name == "Member")
+                {
+                    <li class="nav-item ">
+                        <a asp-action="Index" asp-controller="Home" asp-route-area="Member" class="navbar-brand tm-site-name">YZL–5136 </a>
+                    </li>
+                }
+                else if (User.Identity.IsAuthenticated && CurrentUser.User.Role.Name == "Admin")
+                {
+                    <a asp-action="Index" asp-controller="Home" asp-route-area="Admin" class="navbar-brand tm-site-name">YZL–5136 </a>
+                }
+                else
+                {
+                    <li class="nav-item ">
+                        <a asp-action="Index" asp-controller="Home" asp-route-area="" class="navbar-brand tm-site-name">YZL–5136 </a>
+
+                    </li>
+                }
+
+
+                <!-- navbar -->
+                <nav class="navbar tm-main-nav">
+
+                    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                        &#9776;
+                    </button>
+
+                    <div class="collapse navbar-toggleable-sm" id="tmNavbar">
+                        <ul class="nav navbar-nav">
+                            @if (User.Identity.IsAuthenticated && CurrentUser.User.Role.Name == "Member")
+                            {
+                                <li class="nav-item ">
+                                    <a asp-action="Index" asp-controller="Home" asp-route-area="Member" class="nav-link">Anasayfa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="About" asp-route-area="" class="nav-link">Hakkımızda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Category" asp-route-area="" class="nav-link">Kategoriler</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Create" asp-controller="Category" asp-route-area="Member" class="nav-link">Kategori Ekle</a>
+                                </li>
+
+                                <li class="nav-item btn-sm " style="background-color:#17a2b8 !important;color:white;border-radius:15px;">
+                                    <a asp-action="Index" asp-controller="Profile" asp-route-area="Member" class="nav-link btn-sm" style="color:white">Profilim (@CurrentUser.User.FullName)</a>
+                                </li>
+                            }
+                            else if (User.Identity.IsAuthenticated && CurrentUser.User.Role.Name == "Admin")
+                            {
+                                <li class="nav-item ">
+                                    <a asp-action="Index" asp-controller="Home" asp-route-area="Admin" class="nav-link">Onay Bekleyenler</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Category" asp-route-area="Admin" class="nav-link">Kategoriler (CRUD)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="CommentManagement" asp-route-area="Admin" class="nav-link">Yorum Yönetimi</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item ">
+                                    <a asp-action="Index" asp-controller="Home" asp-route-area="" class="nav-link">Anasayfa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="About" asp-route-area="" class="nav-link">Hakkımızda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Category" asp-route-area="" class="nav-link">Kategoriler</a>
+                                </li>
+                            }
+
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item active">
+                                    <a asp-action="Login" asp-controller="Account" asp-route-area="" class="nav-link">Giriş Yap</a>
+                                </li>
+                                <li class="nav-item " style="background-color:#449d44 !important;">
+                                    <a asp-action="Register" asp-controller="Account" asp-route-area="" class="nav-link" style="color:white !important">Üye Ol</a>
+                                </li>
+                            }
+
+
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item btn-sm" style="background-color:#17a2b8 !important;color:white;border-radius:15px;">
+                                    <a asp-action="Logout" asp-controller="Account" asp-route-area="" class="nav-link btn-sm" style="color:white">Çıkış Yap</a>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <footer class="tm-footer">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-xs-12 tm-copyright-col">
+                    <p class="tm-copyright-text">Copyright 2023 YZL-5136</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load JS files -->
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        @if (User.Identity.IsAuthenticated)
+            {
+            <text>
+            setInterval(function () {
+                    $.get('@Url.Action("Control","Account",new{area=""})', function (res) {
+                    if (res == false) {
+                        window.location.href='@Url.Action("Logout","Account",new{area=""})'
+                    }
+                })
+            },1000);
+
+            </text>
+        }
+    
+    </script>
+
+</body>
+</html>

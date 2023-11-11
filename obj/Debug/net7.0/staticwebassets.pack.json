@@ -1,0 +1,833 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\YZL5136.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YZL5136.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\css\\templatemo-style.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-style.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\OtonomSürüş.jpeg",
+      "PackagePath": "staticwebassets\\img\\OtonomSürüş.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\classic-pattern-bg.png",
+      "PackagePath": "staticwebassets\\img\\classic-pattern-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\eğitimdeteknolojirolü.jpeg",
+      "PackagePath": "staticwebassets\\img\\eğitimdeteknolojirolü.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\indir.jpg",
+      "PackagePath": "staticwebassets\\img\\indir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\kriptoparalar.jpeg",
+      "PackagePath": "staticwebassets\\img\\kriptoparalar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\sanalgerçeklik.jpeg",
+      "PackagePath": "staticwebassets\\img\\sanalgerçeklik.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-API-Geliştirme-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-API-Geliştirme-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-Otonom-Sürüş-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-Otonom-Sürüş-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-about-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-ahşap-işçiliği-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-ahşap-işçiliği-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-aşılar-ve-salgınlar-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-aşılar-ve-salgınlar-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-başarılı-iş-görüşmesi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-başarılı-iş-görüşmesi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bilim-eğitimi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-bilim-eğitimi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bilim-ve-saglık-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-bilim-ve-saglık-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bilim-ve-teknoloji-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-bilim-ve-teknoloji-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bilimsel-araştırma-img.png",
+      "PackagePath": "staticwebassets\\img\\tm-bilimsel-araştırma-img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bilimsel-keşiflerin-önemi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-bilimsel-keşiflerin-önemi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bitki-yeiştirme-ve-bahcecilik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-bitki-yeiştirme-ve-bahcecilik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-blockchain-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-blockchain-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-blog-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-blog-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-bulut-hizmetleri-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-bulut-hizmetleri-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-contact-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-contact-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-devopps-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-devopps-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-digital-okuryazarlık-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-digital-okuryazarlık-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-digital-turizm-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-digital-turizm-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-dikiş-sanatı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-dikiş-sanatı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-dogayla-bas-basa-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-dogayla-bas-basa-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-doğa-ve-çevre-ilişkisi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-doğa-ve-çevre-ilişkisi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-e-ticaret-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-e-ticaret-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-el-yapımı-dekereasyon-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-el-yapımı-dekereasyon-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-elektirikli-araçlar-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-elektirikli-araçlar-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-emeklilik-planlaması-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-emeklilik-planlaması-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-estetik-ve-fonsiyon-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-estetik-ve-fonsiyon-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-eğitimde-eşiktsizlik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-eğitimde-eşiktsizlik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-eğitimde-teknoloji-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-eğitimde-teknoloji-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-eğitimde-teknoloji-rolü-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-eğitimde-teknoloji-rolü-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-finansal-bagımsızlık-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-finansal-bagımsızlık-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-front-end-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-front-end-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-gayrimenkul-yatırımı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-gayrimenkul-yatırımı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-gebelik-ve-anne-saglıgı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-gebelik-ve-anne-saglıgı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-gelecğin-iş-dünyası-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-gelecğin-iş-dünyası-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-genetik-mühandislik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-genetik-mühandislik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-görsel-sanatlar-ve-kültür-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-görsel-sanatlar-ve-kültür-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-hisse-senetler-ve-borsa-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-hisse-senetler-ve-borsa-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-home-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-home-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-4.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-5.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-100x100-6.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-100x100-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-1010x336-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-1010x336-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-240x120-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-240x120-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-240x120-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-240x120-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-240x120-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-240x120-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-1.jpg.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-1.jpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-12..jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-12..jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-12.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-12.jpg.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-12.jpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-2.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-3.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-310x180-4.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-310x180-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-img-660x330-1.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-img-660x330-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-iş-değişikiği-ve-kariyer-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-iş-değişikiği-ve-kariyer-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-iş-hayatında-denge-vestres-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-iş-hayatında-denge-vestres-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-kariyer-planlaması-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-kariyer-planlaması-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-klasik-otomobil-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-klasik-otomobil-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-korona-sonrası-hayat-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-korona-sonrası-hayat-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-kripto-paralar-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-kripto-paralar-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-krpito-paralar-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-krpito-paralar-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-kültürel-miras-izinde-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-kültürel-miras-izinde-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-kültürelarası-sanat-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-kültürelarası-sanat-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-mobil-uyumlu-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-mobil-uyumlu-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-müzik-ve-duygu-ifadesi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-müzik-ve-duygu-ifadesi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-nörobilim-ve-beyin-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-nörobilim-ve-beyin-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-progressive-web-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-progressive-web-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-rekabet-ve-fairPlay-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-rekabet-ve-fairPlay-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-rekreasyonun-yaşam-tarzı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-rekreasyonun-yaşam-tarzı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-resim-sanatı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-resim-sanatı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-risk-yönetimi-ve-portföy-img.png",
+      "PackagePath": "staticwebassets\\img\\tm-risk-yönetimi-ve-portföy-img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sanal-gerçeklik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sanal-gerçeklik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sanat-eğitimi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sanat-eğitimi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sanat-ve-kimlik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sanat-ve-kimlik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sanat-ve-kültürel-miras-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sanat-ve-kültürel-miras-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sanatın-evrenselliği-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sanatın-evrenselliği-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-serverless-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-serverless-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-serverless-img.png",
+      "PackagePath": "staticwebassets\\img\\tm-serverless-img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-spor-ve-rekreasyon-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-spor-ve-rekreasyon-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-spor-ve-toplumsal-birliği-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-spor-ve-toplumsal-birliği-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sporun-bedendeki-etkileri-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sporun-bedendeki-etkileri-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-stem-eğitimi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-stem-eğitimi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-sürücüsüz-araçlar-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-sürücüsüz-araçlar-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-takı-tasarımı-hobi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-takı-tasarımı-hobi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-telemedicisine-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-telemedicisine-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-test-otomasyon-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-test-otomasyon-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-test-otomasyon-img.png",
+      "PackagePath": "staticwebassets\\img\\tm-test-otomasyon-img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-turizmde-trendler-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-turizmde-trendler-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-uı-ux-tasarım-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-uı-ux-tasarım-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-veri-analitiği-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-veri-analitiği-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-veri-tabanı-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-veri-tabanı-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-dilleri-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-web-dilleri-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-frameworkleri-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-web-frameworkleri-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-güvenligi-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-web-güvenligi-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-proglama-giriş-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-web-proglama-giriş-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-program-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-web-program-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-web-programlama-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-web-programlama-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yapay-zeka-img.jpg",
+      "PackagePath": "staticwebassets\\img\\tm-yapay-zeka-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yaratıcı-kariyer-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-yaratıcı-kariyer-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yeni-nesil-yakıt-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-yeni-nesil-yakıt-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yenilebilir-enerji-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-yenilebilir-enerji-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yerel-lezzetler-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-yerel-lezzetler-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-yeşil-otomotiv-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-yeşil-otomotiv-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-çevre-bilimi-sürdürebilirlik-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-çevre-bilimi-sürdürebilirlik-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\tm-öğrenmeyi-kolaylaştırma-img.jpeg",
+      "PackagePath": "staticwebassets\\img\\tm-öğrenmeyi-kolaylaştırma-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\yapayzeka.jpg",
+      "PackagePath": "staticwebassets\\img\\yapayzeka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\img\\yenilebilirenerji.jpeg",
+      "PackagePath": "staticwebassets\\img\\yenilebilirenerji.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\023d20aa-c905-4e31-a516-3013df634ba3_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\023d20aa-c905-4e31-a516-3013df634ba3_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\0b1d29ee-9f06-4e9e-bc0a-9b0e89de2db4_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\0b1d29ee-9f06-4e9e-bc0a-9b0e89de2db4_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\0cdc05c0-7236-4bf9-96bd-b086217969fb_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\0cdc05c0-7236-4bf9-96bd-b086217969fb_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\13515f96-4161-460d-9ffb-59e583163172_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\13515f96-4161-460d-9ffb-59e583163172_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\1783be12-915f-40ff-8451-efcd55943cee_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\1783be12-915f-40ff-8451-efcd55943cee_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\19089847-b9b9-46b8-a18d-7d7c290d6d36_basindetay_2.png",
+      "PackagePath": "staticwebassets\\uploads\\19089847-b9b9-46b8-a18d-7d7c290d6d36_basindetay_2.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\19dd24fb-bafd-475c-81d6-56b08be43c95_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\19dd24fb-bafd-475c-81d6-56b08be43c95_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\338229ab-5dd4-4a2e-9311-e611756da78f_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\338229ab-5dd4-4a2e-9311-e611756da78f_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\44df29c5-ce0b-4738-85c9-1a05235a096a_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\44df29c5-ce0b-4738-85c9-1a05235a096a_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\4e0805c2-31cf-4a80-b7b4-102bd3d6cf4e_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\4e0805c2-31cf-4a80-b7b4-102bd3d6cf4e_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\5b62f1d1-e35f-4317-a702-664840ef4d8a_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\5b62f1d1-e35f-4317-a702-664840ef4d8a_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\622b78f7-6235-499d-bd27-d30e64b58034_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\622b78f7-6235-499d-bd27-d30e64b58034_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\68a69b80-b555-453b-b36d-87c20d8f5962_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\68a69b80-b555-453b-b36d-87c20d8f5962_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\7a96e553-ea5b-47e7-a7a1-0cac8bd01b26_basindetay_2.png",
+      "PackagePath": "staticwebassets\\uploads\\7a96e553-ea5b-47e7-a7a1-0cac8bd01b26_basindetay_2.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\9464fd7e-db8b-4aab-8c95-14dde7fc569d_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\9464fd7e-db8b-4aab-8c95-14dde7fc569d_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\980f94a4-835a-4817-aa51-1412a2d2b0c9_Adsız.png",
+      "PackagePath": "staticwebassets\\uploads\\980f94a4-835a-4817-aa51-1412a2d2b0c9_Adsız.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\98b4c739-1c95-45f8-94f6-88bd7d384762_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\98b4c739-1c95-45f8-94f6-88bd7d384762_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\9bf8af82-7c13-4466-af79-11bc8f02b302_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\9bf8af82-7c13-4466-af79-11bc8f02b302_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\af170476-f82d-4c14-809f-f8b78d667b9c_basindetay_1.png",
+      "PackagePath": "staticwebassets\\uploads\\af170476-f82d-4c14-809f-f8b78d667b9c_basindetay_1.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\c9957204-f0af-4448-aeb6-2fe9ba1fd613_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\c9957204-f0af-4448-aeb6-2fe9ba1fd613_about_img.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\e7f262ea-9498-43bb-9fe3-302df7edb727_galeri_3.png",
+      "PackagePath": "staticwebassets\\uploads\\e7f262ea-9498-43bb-9fe3-302df7edb727_galeri_3.png"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\e8291032-1e04-4b3a-a729-8d1eb22ee2d8_loT.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\e8291032-1e04-4b3a-a729-8d1eb22ee2d8_loT.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elif\\Desktop\\proje1\\Proje1\\YZL5136\\YZL5136.WebUI\\wwwroot\\uploads\\eb622e67-fac5-4e62-82eb-d9f08f2b4e5c_about_img.png",
+      "PackagePath": "staticwebassets\\uploads\\eb622e67-fac5-4e62-82eb-d9f08f2b4e5c_about_img.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.YZL5136.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.YZL5136.WebUI.props",
+      "PackagePath": "build\\YZL5136.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.YZL5136.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\YZL5136.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.YZL5136.WebUI.props",
+      "PackagePath": "buildTransitive\\YZL5136.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
